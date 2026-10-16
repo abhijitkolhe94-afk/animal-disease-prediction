@@ -1,0 +1,21 @@
+DEMO EVALUATION REPORT
+IMPORTANT: bundled dataset is synthetic and not clinically valid.
+Metrics only demonstrate the evaluation workflow; they do not measure real-world veterinary accuracy.
+
+Rows used: 144
+Training rows: 108
+Test rows: 36
+Accuracy on held-out synthetic rows: 0.750
+
+                               precision    recall  f1-score   support
+
+     Chronic condition (demo)       1.00      1.00      1.00         6
+   Digestive condition (demo)       0.80      0.67      0.73         6
+    Lameness condition (demo)       0.80      0.67      0.73         6
+Mouth-lesion condition (demo)       0.56      0.83      0.67         6
+ Respiratory condition (demo)       0.80      0.67      0.73         6
+       Udder condition (demo)       0.67      0.67      0.67         6
+
+                     accuracy                           0.75        36
+                    macro avg       0.77      0.75      0.75        36
+                 weighted avg       0.77      0.75      0.75        36
